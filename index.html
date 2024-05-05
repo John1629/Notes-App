@@ -3,32 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <title>Modern Note Taking App</title>
+    <link rel="stylesheet" href="./style.css" />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.in.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     />
-    <link
-      rel="shortcut icon"
-      type="x-icon"
-      href="https://www.pngitem.com/pimgs/m/81-815562_iphone-notes-app-icon-notes-icon-on-phone.png"
-    />
-
-    <title>Notes App</title>
   </head>
   <body>
-    <div>
-      <div id="container">
-        <div id="list-header">
-          <div id="addNoteDiv" onclick="popup()">
-            <i class="fa-solid fa-plus"></i>
-          </div>
-          <div class="blankdiv"></div>
-          <div class="blankdiv"></div>
+    <div id="container">
+      <div id="list-header">
+        <div id="addNoteDiv" onclick="popup()">
+          <i class="fa-solid fa-plus"></i>
         </div>
-        <div id="list-container">
-          <ul id="notes-list"></ul>
-        </div>
+        <div class="blankDiv"></div>
+        <div class="blankDiv"></div>
+      </div>
+
+      <div id="list-container">
+        <ul id="notes-list"></ul>
       </div>
     </div>
 
